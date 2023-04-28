@@ -28,7 +28,7 @@ nav {
   padding: 0;
 }
 
-header {
+.banner {
   background-image: url(images/header-shapes.png);
   background-color: #fff;
   background-size: 100%;

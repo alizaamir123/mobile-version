@@ -107,7 +107,7 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](https://github.com/alizaamir123/mobile-version/blob/new-branch/MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

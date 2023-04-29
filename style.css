@@ -55,7 +55,7 @@ nav {
 }
 
 .connect {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -136,7 +136,7 @@ nav {
 }
 
 .content-header {
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   color: #172b4d;
   line-height: 44px;
@@ -151,7 +151,7 @@ nav {
 }
 
 .skills {
-  font-family: "Poppins";
+  font-family: "Poppins" , sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -160,7 +160,7 @@ nav {
 }
 
 .year {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -226,7 +226,7 @@ nav {
   border-radius: 10px;
   border: 1px solid #6070ff;
   margin-top: 12px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -239,7 +239,7 @@ nav {
 
 .languages {
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  color: #000;
   font-weight: 500;
   font-size: 20px;
   padding-left: 12px;
@@ -263,16 +263,18 @@ nav {
 }
 
 .after-about-content {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
+
 .sidearrow1 {
   padding-left: 60%;
 }
+
 .sidearrow2 {
   padding-left: 60%;
 }

@@ -12,8 +12,14 @@ nav {
   padding: 0 25px;
 }
 
-.logo {
+.logo a {
+  text-decoration: none;
   color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .icon {
@@ -64,8 +70,8 @@ nav {
 
 .containers {
   padding: 0 24px;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -187,11 +193,16 @@ nav {
 .arrow {
   height: 7px;
   align-self: center;
+  margin-left: 155px;
 }
 
 .language-section {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  flex-direction: column;
+  margin-left: 0;
+  padding-left: 10px;
 }
 
 .about-container {
@@ -199,6 +210,8 @@ nav {
   background-color: #fff;
   border-top-right-radius: 80px;
   margin-top: 35%;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-heading {
@@ -255,18 +268,18 @@ nav {
   color: #000;
   font-weight: 500;
   font-size: 20px;
-  padding-left: 12px;
 }
 
 .lang-name {
   list-style: none;
   padding: 0;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .javascript-lang {
   padding: 12px 5px;
   margin-top: 10px;
+  margin-left: 0;
   background: #f7f7f9;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -294,6 +307,11 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  list-style: none;
 }
 
 .sidearrow1 {

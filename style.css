@@ -64,6 +64,8 @@ nav {
 
 .containers {
   padding: 0 24px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .container {
@@ -157,6 +159,10 @@ nav {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
+  display: flex;
+  gap: 5px;
+  height: 10px;
+  align-items: center;
 }
 
 .year {
@@ -167,6 +173,10 @@ nav {
   line-height: 16px;
   color: #7a869a;
   padding-left: 10px;
+  display: flex;
+  gap: 5px;
+  height: 10px;
+  align-items: center;
 }
 
 .l {
@@ -175,7 +185,7 @@ nav {
 }
 
 .arrow {
-  height: 10px;
+  height: 7px;
   align-self: center;
 }
 
@@ -198,6 +208,8 @@ nav {
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin: 0;
+  margin-top: 20px;
 }
 
 .about {
@@ -218,6 +230,7 @@ nav {
   list-style: none;
   display: flex;
   padding: 0;
+  align-items: center;
 }
 
 .get-resume {
@@ -247,10 +260,12 @@ nav {
 
 .lang-name {
   list-style: none;
+  padding: 0;
+  margin-left: 10px;
 }
 
 .javascript-lang {
-  padding: 10px 5px;
+  padding: 12px 5px;
   margin-top: 10px;
   background: #f7f7f9;
   font-family: "Poppins", sans-serif;
@@ -260,21 +275,34 @@ nav {
   display: flex;
   align-items: center;
   color: #253858;
+  border-radius: 20px;
+  gap: 10px;
 }
 
-.after-about-content {
+.after-about{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   color: #000;
+  list-style: none;
+  padding: 10px;
+}
+
+.frameworks{
+display: flex;
+justify-content: space-between;
+padding:20px 0;
+
 }
 
 .sidearrow1 {
-  padding-left: 60%;
+  height: 15px;
+  align-self: center;
 }
 
 .sidearrow2 {
-  padding-left: 60%;
+  height: 15px;
+  align-self: center;
 }

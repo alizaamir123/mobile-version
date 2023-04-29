@@ -279,7 +279,7 @@ nav {
   gap: 10px;
 }
 
-.after-about{
+.after-about {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -290,11 +290,10 @@ nav {
   padding: 10px;
 }
 
-.frameworks{
-display: flex;
-justify-content: space-between;
-padding:20px 0;
-
+.frameworks {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .sidearrow1 {

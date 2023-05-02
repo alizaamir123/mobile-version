@@ -131,7 +131,6 @@ nav {
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   list-style: none;
-  padding: 0;
   display: flex;
 }
 
@@ -424,7 +423,6 @@ textarea {
 }
 
 .contact-btn {
-  border-radius: 5%;
   border: none;
   color: #6070ff;
   font-family: "Poppins", sans-serif;

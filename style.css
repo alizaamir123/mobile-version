@@ -101,6 +101,8 @@ nav {
   letter-spacing: 0.03em;
   font-family: "Poppins", sans-serif;
   color: #6070ff;
+  float: right;
+  margin-right: 10px;
 }
 
 .see-project {
@@ -121,12 +123,18 @@ nav {
 }
 
 .technologies {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  font-family: "Poppins", sans-serif;
+  color: #6070ff;
   list-style: none;
   padding: 0;
+  display: flex;
 }
+
 
 .specification {
   display: flex;
@@ -324,4 +332,39 @@ nav {
 .sidearrow2 {
   height: 15px;
   align-self: center;
+}
+
+.container1 {
+  padding: 16px;
+  background-color:#6070FF;
+  border-radius: 26px;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/contact-form.png);
+height: 200px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contact-us-heading {
+
+position: absolute;
+width: 801px;
+height: 56px;
+left: -213px;
+top: 4734px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
 }

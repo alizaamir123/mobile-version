@@ -332,6 +332,17 @@ nav {
   align-self: center;
 }
 
+.container1 {
+  padding: 16px;
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/contact-form.png);
+  width: 100%;
+}
+
 .contact-us-heading {
   font-size: 250%;
   font-family: "Poppins", sans-serif;

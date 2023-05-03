@@ -131,10 +131,8 @@ nav {
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   list-style: none;
-  padding: 0;
   display: flex;
 }
-
 
 .specification {
   display: flex;

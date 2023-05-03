@@ -341,6 +341,7 @@ nav {
   margin: 0;
   padding-top: 100px;
 }
+
 .container1 p {
   width: 100%;
   left: 24px;
@@ -349,19 +350,22 @@ nav {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
+
 .form {
   margin: 2% 5%;
 }
+
 form {
   display: flex;
   gap: 8px;
   flex-flow: column;
 }
+
 label {
   background-color: #fff;
-  color: #7D7C84;
+  color: #7d7c84;
   font-size: 80%;
   margin: 1% auto;
   max-width: 500px;
@@ -371,12 +375,15 @@ label {
   flex-flow: column;
   border-radius: 10px;
 }
+
 label input {
   border: none;
 }
+
 textarea {
   border: none;
 }
+
 #name {
   height: 18px;
   font-family: "Poppins", sans-serif;
@@ -384,8 +391,9 @@ textarea {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
+
 #email {
   height: 18px;
   font-family: "Poppins", sans-serif;
@@ -393,23 +401,26 @@ textarea {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
+
 #message {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
 }
+
 .contact-btn {
   border: none;
-  color: #6070FF;
+  color: #6070ff;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   padding: 12px;
   margin: 2% 50% 0 1%;
   border-radius: 10px;
 }
+
 .end-footer {
   padding: 30px;
   text-align: center;

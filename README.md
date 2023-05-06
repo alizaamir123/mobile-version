@@ -23,14 +23,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Setup mobile first] <a name="about-project"></a>
+# 📖 [Aliza Amir Portfolio] <a name="about-project"></a>
 
-## 🛠️ Built With html and CSS .This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.
+## 🛠️This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.
 
 ### Tech Stack <a name="tech-stack"></a>
-Html
-CSS
-Visual studio code
+- HTML
+- CSS
+- Visual studio code
 
 <!-- Features -->
 
@@ -80,8 +80,13 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 - *Add javascript*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTIng --->
 
+## 🤝Contributing <a name="future-features"></a>
 
+https://github.com/alizaamir123/mobile-version/issues
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>

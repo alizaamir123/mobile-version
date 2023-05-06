@@ -43,13 +43,6 @@ Visual studio code
 - *It has html*
 - *It has CSS*
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="Setup-mobile-first"></a>
-  I don't have live demo link currently.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -79,13 +72,12 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 👤 *Aliza Amir*
 
 - GitHub: [@Alizaamir123](https://github.com/Alizaamir123)
-- LinkedIn: (https://www.linkedin.com/in/aliza-amir-545196215/)
+- LinkedIn:[lizaAmir](https://www.linkedin.com/in/aliza-amir-545196215/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 - *CSS framework designing*
-- *More detailed*
-- *Master HTML*
+- *Add javascript*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

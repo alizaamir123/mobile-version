@@ -513,6 +513,7 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    padding: 20px 30px;
   }
 
   .image {
@@ -745,6 +746,5 @@ textarea {
   .img{
     padding: 4px 15px;
   }
-
 
 }

@@ -23,14 +23,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Setup mobile first] <a name="about-project"></a>
+# 📖 [Aliza Amir Portfolio] <a name="about-project"></a>
 
-## 🛠️ Built With html and CSS .This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.
+## 🛠️This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.
 
 ### Tech Stack <a name="tech-stack"></a>
-Html
-CSS
-Visual studio code
+- HTML
+- CSS
+- Visual studio code
 
 <!-- Features -->
 
@@ -42,13 +42,6 @@ Visual studio code
 - *It has MIT license*
 - *It has html*
 - *It has CSS*
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="Setup-mobile-first"></a>
-  I don't have live demo link currently.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -79,17 +72,21 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 👤 *Aliza Amir*
 
 - GitHub: [@Alizaamir123](https://github.com/Alizaamir123)
-- LinkedIn: (https://www.linkedin.com/in/aliza-amir-545196215/)
+- LinkedIn:[lizaAmir](https://www.linkedin.com/in/aliza-amir-545196215/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 - *CSS framework designing*
-- *More detailed*
-- *Master HTML*
+- *Add javascript*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTIng --->
 
+## 🤝Contributing <a name="future-features"></a>
 
+https://github.com/alizaamir123/mobile-version/issues
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>

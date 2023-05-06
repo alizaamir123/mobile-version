@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   background-color: #fff;
@@ -20,6 +25,11 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  padding: 10px 20px;
+}
+
+#logo {
+  animation: rotate 1.5s ease-in-out;
 }
 
 .icon {
@@ -107,17 +117,14 @@ nav {
 
 .see-project {
   background-color: #fff;
-  padding: 15px 10px;
+  padding: 10px 10px;
   border-radius: 10px;
   border: 1px solid #6070ff;
-  margin-top: 12px;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
 }
@@ -131,10 +138,8 @@ nav {
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   list-style: none;
-  padding: 0;
   display: flex;
 }
-
 
 .specification {
   display: flex;
@@ -332,4 +337,413 @@ nav {
 .sidearrow2 {
   height: 15px;
   align-self: center;
+}
+
+.contact-container {
+  padding: 16px;
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/contact-form.png);
+  width: 100%;
+}
+
+.contact-us-heading {
+  font-size: 250%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.contact-us-para {
+  width: 100%;
+  left: 24px;
+  top: 4802px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  margin: 2% 5%;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  flex-flow: column;
+}
+
+label {
+  background-color: #fff;
+  color: #7d7c84;
+  font-size: 80%;
+  margin: 1% auto;
+  max-width: 500px;
+  padding: 18px;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 10px;
+}
+
+label input {
+  border: none;
+}
+
+textarea {
+  border: none;
+}
+
+#name {
+  height: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+#email {
+  height: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+#message {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.contact-btn {
+  border: none;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding: 12px;
+  margin: 2% 50% 0 1%;
+  border-radius: 10px;
+}
+
+.end-footer {
+  padding: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    background-image: url(./images/desktop-header.png);
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 24px;
+    height: 120vh;
+    border-bottom-left-radius: 80px;
+  }
+
+  .header-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 100px 108px 0;
+    margin: 0;
+    color: #172b4d;
+  }
+
+  .paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344563;
+    padding: 0 108px;
+  }
+
+  .icons {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 108px 0;
+  }
+
+  .connect {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    padding: 0 108px 0;
+  }
+
+  .connect1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .navbar-lists {
+    text-decoration: none;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 59px;
+  }
+
+  .image {
+    padding: 10px;
+    height: 328px;
+  }
+
+  .content-para {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .content-header {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    color: #172b4d;
+    line-height: 44px;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .about {
+    padding: 40px 22px;
+  }
+
+  .about-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .about-para {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    font-size: 15px;
+  }
+
+  .languages {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 50px 0 0;
+  }
+
+  .lang-name {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .after-about {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    list-style: none;
+    padding: 10px;
+  }
+
+  .sidearrow1 {
+    height: 15px;
+    align-self: center;
+  }
+
+  .sidearrow2 {
+    height: 15px;
+    align-self: center;
+  }
+
+  .arrow {
+    height: 7px;
+    align-self: center;
+    padding-left: 73px;
+  }
+
+  .contact-container {
+    padding: 16px;
+    background-color: #6070ff;
+    border-top-left-radius: 100px;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/contact-form-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-us-heading {
+    font-size: 250%;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+    padding-top: 18%;
+  }
+
+  .contactPara {
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    margin-left: 148px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container .image {
+    flex: 1;
+    order: 1;
+  }
+
+  .container .content {
+    flex: 1;
+    order: 2;
+    padding: 4px 15px;
+  }
+
+  .container:nth-child(even) .image {
+    order: 2;
+  }
+
+  .container:nth-child(even) .content {
+    order: 1;
+  }
+
+  label {
+    background-color: #fff;
+    color: #7d7c84;
+    font-size: 80%;
+    padding: 18px;
+    display: flex;
+    width: 50%;
+    flex-flow: column;
+    border-radius: 10px;
+  }
+
+  textarea {
+    border: none;
+  }
+
+  #name {
+    height: 18px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  #email {
+    height: 18px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  #message {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #b3bac5;
+  }
+
+  .contact-btn {
+    border: none;
+    color: #6070ff;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 19%;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 39%;
+  }
+
+  .javascript-lang {
+    margin-left: 0;
+    background: #f7f7f9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-start;
+    color: #253858;
+    border-radius: 20px;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .frameworks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    list-style: none;
+  }
+
+  .navbar-lists a {
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .img {
+    padding: 4px 15px;
+  }
 }

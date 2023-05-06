@@ -644,6 +644,7 @@ textarea {
   .container .content {
     flex: 1;
     order: 2;
+    padding: 4px 15px;
   }
 
   .container:nth-child(even) .image {
@@ -740,4 +741,10 @@ textarea {
     color: #344563;
     text-decoration: none;
   }
+
+  .img{
+    padding: 4px 15px;
+  }
+
+
 }

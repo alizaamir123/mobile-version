@@ -2,6 +2,40 @@ body {
   background-color: #f7f7f9;
   margin: 0;
   padding: 0;
+  overflow: none;
+}
+
+#cross-button {
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar-lists {
+  display: none;
+}
+
+.menue-popup {
+  position: fixed;
+  background-color: #6070ff;
+  top: -15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  list-style: none;
+  backdrop-filter: blur(5px);
+}
+
+.hidden {
+  display: none;
+}
+
+.menue-items a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 html {
@@ -453,6 +487,10 @@ textarea {
     padding: 0 24px;
     height: 120vh;
     border-bottom-left-radius: 80px;
+  }
+
+  .menu {
+    display: none;
   }
 
   .header-text {

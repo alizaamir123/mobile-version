@@ -16,10 +16,22 @@
   <header>
   <nav>
     <h3 class="logo" id="logo"><a href="#"> Aliza Amir</a></h3>
+    <div class="menu">
+      <span id="hamburger-button">&#9776</span>
+      <span class="hidden" id="cross-button">X</span>
+    </div>
+   <div class="menue-popup hidden">
+
+    <ul class="menue-mobile">
+      <li class="menue-items"><a class="margin" href="#portfolio-link" title="navbar link portfolio">Portfolio</a></li>
+      <li class="menue-items"><a class="margin" href="#about-link" title="navbar link About">About</a></li>
+      <li class="menue-items"><a class="margin" href="#Contact-link" title="navbar link Contact">Contact</a></li>
+    </ul>
+  </div>
     <ul class="navbar-lists">
-      <li class="navbar-items"><a href="#" title="navbar link portfolio">Portfolio</a></li>
-      <li class="navbar-items"><a href="#" title="navbar link About">About</a></li>
-      <li class="navbar-items"><a href="#" title="navbar link Contact">Contact</a></li>
+      <li class="navbar-items"><a href="#portfolio-link" title="navbar link portfolio">Portfolio</a></li>
+      <li class="navbar-items"><a href="#about-link" title="navbar link About">About</a></li>
+      <li class="navbar-items"><a href="#Contact-link" title="navbar link Contact">Contact</a></li>
     </ul>
   </nav>
   <div class="banner">
@@ -40,7 +52,7 @@
 </ul>
 </div>
   </header>
-   <Section class="containers">
+   <Section class="containers" id="portfolio-link">
     
     <div class="container">
         <div class="image">
@@ -133,7 +145,7 @@
         </div>
     </div>
   </section>
-<section class="about-container">
+<section class="about-container" id="about-link">
 
   <div class="about">
 <h2 class="about-heading">
@@ -170,7 +182,7 @@
 </ul>
 </Section>
 
-<div class="contact-container">
+<div class="contact-container" id="Contact-link">
   <h2 class="contact-us-heading">Contact me</h2>
   <p class="contactPara">If you have an application you are interested
     in developing, a feature that you need built or a project that needs coding.
@@ -191,6 +203,7 @@
   </div>
 </div>
 </form>
+<script src="./Js/main.js"></script>
 
 </body>
 </html> 

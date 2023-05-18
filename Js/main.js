@@ -1,4 +1,5 @@
 const menue = document.querySelector('.menue-popup');
+const cross = document.querySelector('#cross-button');
 
 function toggleMenue() {
   if (menue.classList.contains('hidden')) {

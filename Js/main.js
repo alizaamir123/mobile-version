@@ -1,5 +1,6 @@
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
+const hamburger = document.querySelector('#hamburger-button');
 
 function toggleMenue() {
   if (menue.classList.contains('hidden')) {
@@ -11,9 +12,10 @@ function toggleMenue() {
   }
 }
 
-document.querySelectorAll('.menue-items').forEach((n) =>
-  n.addEventListener('click', () => {
-    menue.classList.add('hidden');
-    cross.classList.add('hidden');
-  })
-);
+hamburger.addEventListener('click', () => toggleMenue);
+cross.addEventListener('click', () => toggleMenue);
+
+document.querySelectorAll('.menue-items').forEach((n) => n.addEventListener('click', () => {
+  menue.classList.add('hidden');
+  cross.classList.add('hidden');
+}));

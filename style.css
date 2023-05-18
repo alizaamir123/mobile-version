@@ -410,6 +410,9 @@ nav {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact-form.png);
+  background-position: 24px 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-us-heading {

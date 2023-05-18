@@ -5,6 +5,23 @@ body {
   overflow: none;
 }
 
+.menue-popup {
+  position: fixed;
+  background-color: #6070FF;
+  height: 100%;
+  top: -15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  list-style: none;
+  backdrop-filter: blur(5px);
+  font-family: 'Poppins',sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  }
+
 #cross-button {
   position: fixed;
   z-index: 100;

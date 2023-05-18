@@ -12,8 +12,8 @@ function toggleMenue() {
   }
 }
 
-hamburger.addEventListener('click', () => toggleMenue);
-cross.addEventListener('click', () => toggleMenue);
+hamburger.addEventListener('click', () => toggleMenue());
+cross.addEventListener('click', () => toggleMenue());
 
 document.querySelectorAll('.menue-items').forEach((n) => n.addEventListener('click', () => {
   menue.classList.add('hidden');

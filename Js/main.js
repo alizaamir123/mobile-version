@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('#hamburger-button');
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
+const submit =document.querySelectorAll('#see-project');
 
 const toggleMenue = () => {
   if (menue.classList.contains('hidden')) {
@@ -18,17 +19,3 @@ document.querySelectorAll('.menue-items').forEach((n) => n.addEventListener('cli
     menue.classList.add('hidden');
     cross.classList.add('hidden');
 }));
-
-// 10:39
-// index.html
-// <ul class="menue-popup hidden">
-//   <li class="menue-items"><a href="#portfolio" title="navbar link portfolio">Portfolio</a></li>
-//   <li class="menue-items"><a href="#about" title="navbar link About">About</a></li>
-//   <li class="menue-items"><a href="#contact" title="navbar link Contact">Contact</a></li>
-// </ul>
-// 10:40
-// then add the following ids
-// id="portfolio" line 52
-// id="about" line 145
-// and
-// id="contact" line 182

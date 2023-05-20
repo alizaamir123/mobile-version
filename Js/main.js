@@ -1,11 +1,13 @@
-const hamburger = document.querySelector('#hamburger-button');
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
 const submit = document.querySelectorAll('.see-project');
 const popshow = document.querySelector('.popup-container');
 const hidePopup = document.querySelector('.cross-popup');
+=======
+const hamburger = document.querySelector('#hamburger-button');
 
-const toggleMenue = () => {
+
+function toggleMenue() {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');
     cross.classList.remove('hidden');
@@ -13,6 +15,7 @@ const toggleMenue = () => {
     menue.classList.add('hidden');
     cross.classList.add('hidden');
   }
+
 };
 
 const togglePopup = () => {
@@ -38,3 +41,5 @@ submit.forEach((button) => {
 });
 
 hidePopup.addEventListener('click', togglePopup);
+
+

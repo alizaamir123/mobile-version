@@ -33,9 +33,8 @@ document.querySelectorAll('.menue-items').forEach((n) => {
   });
 });
 
-submit.forEach(( button) => {
+submit.forEach((button) => {
   button.addEventListener('click', togglePopup);
 });
-
 
 hidePopup.addEventListener('click', togglePopup);

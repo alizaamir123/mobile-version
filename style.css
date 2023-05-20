@@ -576,6 +576,13 @@ textarea {
   gap: 10px;
 }
 
+#error-msg {
+  color: red;
+  text-align: center;
+  display: none;
+  font-size: 1.5rem;
+}
+
 .see-project a {
   text-decoration: none;
 }

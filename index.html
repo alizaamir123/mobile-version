@@ -240,22 +240,25 @@
     in developing, a feature that you need built or a project that needs coding.
     I’d love to help with it!</p>
 <div class="form">
-  <form action="https://formspree.io/f/mqkoabao" class="contact-form" method="post">
+  <form action="https://formspree.io/f/xeqwdyvb" class="contact-form" method="post">
   <label for="name">
     <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="30" required/>
   </label>
+  <span class="flex" id="error-msg"></span>
   <label for="email">
     <input  type="email" id="email" name="email" placeholder="Enter your email" required />
   </label>
   <label for="message">
-    <textarea type="text" id="message" class="user-message" placeholder="Write your message here" requiredmaxlength="500" cols="10"rows="5"></textarea>
+    <textarea id="message" class="user-message" placeholder="Write your message here" name="message" cols="10"rows="5" required></textarea>
   </label>
   <div class="formBtn">
-    <button type="button" class="contact-btn">Get In Touch</button>
+    <button type="submit" class="contact-btn">Get In Touch</button>
   </div>
-</div>
 </form>
+</div>
 <script src="./Js/main.js"></script>
+<script src="./Js/localstorage.js"></script>
+
 
 </body>
 </html> 

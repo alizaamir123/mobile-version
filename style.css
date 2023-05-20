@@ -28,6 +28,25 @@ body {
   color: #396df2;
 }
 
+.header-cross {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cross-popup {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
 .menue-popup {
   position: fixed;
   background-color: #6070ff;
@@ -586,6 +605,16 @@ textarea {
     height: 30vh;
   }
 
+  .pop-technoligies {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .pophidden {
+    display: block;
+  }
+
   .pop-project {
     width: 138px;
     padding: 10px 5px;
@@ -904,6 +933,7 @@ textarea {
   }
 
   .pop-image {
-    height: 30vh;
+    width: 88%;
+    height: 35vh;
   }
 }

@@ -5,8 +5,8 @@ const popshow = document.querySelector('.popup-container');
 const hidePopup = document.querySelector('.cross-popup');
 const hamburger = document.querySelector('#hamburger-button');
 const form = document.querySelector('.form');
-errorMsg = document.querySelector('.flex');
-email = document.querySelector('#email');
+const errorMsg = document.querySelector('.flex');
+const email = document.querySelector('#email');
 function toggleMenue() {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');

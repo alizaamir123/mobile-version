@@ -7,10 +7,12 @@ const hamburger = document.querySelector("#hamburger-button");
 const form = document.querySelector(".form");
 errorMsg = document.querySelector(".flex");
 email = document.querySelector("#email");
+
 function toggleMenue() {
-  if (menue.classList.contains("hidden")) {
-    menue.classList.remove("hidden");
-    cross.classList.remove("hidden");
+  if (menue.classList.contains('hidden')) {
+    menue.classList.remove('hidden');
+    cross.classList.remove('hidden');
+
   } else {
     menue.classList.add("hidden");
     cross.classList.add("hidden");
@@ -44,3 +46,4 @@ form.addEventListener("submit", (e) => {
     errorMsg.style.display = "none";
   }
 });
+

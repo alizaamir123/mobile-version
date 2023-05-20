@@ -7,7 +7,6 @@ const hamburger = document.querySelector('#hamburger-button');
 const form = document.querySelector('.form');
 const errorMsg = document.querySelector('.flex');
 const email = document.querySelector('#email');
-
 function toggleMenue() {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');

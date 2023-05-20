@@ -1,28 +1,23 @@
-const formData = { name: "", email: "", message: "" };
-function populateStorage() {
-  formData.name = document.getElementById("name").value;
-  formData.email = document.getElementById("email").value;
-  formData.messege = document.getElementById("message").value;
-  localStorage.setItem("form-data", JSON.stringify(formData));
-}
-function setData() {
-  let storageData = localStorage.getItem("form-data");
-  storageData = JSON.parse(storageData);
-  document.getElementById("name").value = storageData.name;
-  document.getElementById("email").value = storageData.email;
-  document.getElementById("message").value = storageData.message;
-}
-const inputList = [];
-inputList.push(document.getElementById("name"));
-inputList.push(document.getElementById("email"));
-inputList.push(document.getElementById("message"));
-inputList.forEach((value) => {
-  value.addEventListener("input", () => {
-    populateStorage();
+const formData = JSON.parse(localStorage.getItem("form-data")) || {
+  name: "",
+  email: "",
+  message: "",
+};
+
+const inputList = [
+  document.getElementById("name"),
+  document.getElementById("email"),
+  document.getElementById("message"),
+];
+
+function updateFormData() {
+  inputList.forEach((input) => {
+    input.addEventListener("input", () => {
+      formData[input.id] = input.value;
+      localStorage.setItem("form-data", JSON.stringify(formData));
+    });
+    input.value = formData[input.id];
   });
-});
-if (!localStorage.getItem("form-data")) {
-  populateStorage();
-} else {
-  setData();
 }
+
+updateFormData();

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
 const submit = document.querySelectorAll('.see-project');
@@ -7,10 +8,26 @@ const hamburger = document.querySelector('#hamburger-button');
 const form = document.querySelector('.form');
 errorMsg = document.querySelector('.flex');
 email = document.querySelector('#email');
+=======
+const menue = document.querySelector(".menue-popup");
+const cross = document.querySelector("#cross-button");
+const submit = document.querySelectorAll(".see-project");
+const popshow = document.querySelector(".popup-container");
+const hidePopup = document.querySelector(".cross-popup");
+const hamburger = document.querySelector("#hamburger-button");
+const form = document.querySelector(".form");
+errorMsg = document.querySelector(".flex");
+email = document.querySelector("#email");
+
+>>>>>>> ca021f636029f64b8fb06ba5d0717719bed5b536
 function toggleMenue() {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');
     cross.classList.remove('hidden');
+<<<<<<< HEAD
+=======
+
+>>>>>>> ca021f636029f64b8fb06ba5d0717719bed5b536
   } else {
     menue.classList.add('hidden');
     cross.classList.add('hidden');
@@ -44,3 +61,4 @@ form.addEventListener('submit', (e) => {
     errorMsg.style.display = 'none';
   }
 });
+

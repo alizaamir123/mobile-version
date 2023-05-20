@@ -13,18 +13,22 @@
   <title>Aliza Amir Portfolio</title>
 </head>
 <body>
-  <div class="popup-container ">
+  <div class="popup-container hidden">
     <div class="container-popup">
-      <div class="pop-title-image">
         <div class="content">
-          <h2 class="content-header">Tonic</h2>
-          <ul class="specification">
+          <div class="pop-header-tech">
+            <div class="header-cross">
+          <h2 class="content-header margin-none">Tonic</h2>
+          <p class="cross-popup">X</p>
+        </div>
+          <ul class="specification margin-none margin-bottom">
               <li class="name">Aliza</li>
               <li class="skills"><img src="./images/dot.png" alt="">
               <p> Back End Dev</p></li> 
               <li class="year"><img src="./images/dot.png" alt="">
                 <p>2015</p></li>
           </ul>
+        </div>
           <div class="image">
             <img class="img pop-image" src="./images/tonic.png" alt="">
         </div>
@@ -34,10 +38,13 @@
         <p class="content-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi delectus tempora voluptate pariatur voluptas aut voluptatibus, alias eaque distinctio optio, at eligendi tenetur ab animi ut! r  </p>
       </div>
       <div class="links-buttons-underline">
-        <ul class="technologies">
+        <ul class="technologies pop-technoligies">
             <li class="html technologies1">Html</li>
             <li class="Css technologies1">Css</li>
             <li class="javascript technologies1">Javascript</li>
+            <li class="pophidden hidden technologies1">Github</li>
+            <li class="pophidden  hidden technologies1">Ruby</li>
+            <li class="pophidden hidden technologies1">Bootstrap</li>
         </ul>
         <div class="underline"></div>
         <div class="pop-button">
@@ -54,7 +61,6 @@
           </div>
           </a></button>
         </div>
-      </div>
       </div>
     </div>
   </div>
@@ -229,12 +235,13 @@
 </Section>
 
 <div class="contact-container" id="Contact-link">
+  <span class="flex" id="error-msg"></span>
   <h2 class="contact-us-heading">Contact me</h2>
   <p class="contactPara">If you have an application you are interested
     in developing, a feature that you need built or a project that needs coding.
     I’d love to help with it!</p>
 <div class="form">
-  <form action="https://formspree.io/f/mqkoabao" class="contact-form" method="post">
+  <form action="https://formspree.io/f/xeqwdyvb" class="contact-form" method="post">
   <label for="name">
     <input type="text" id="name" name="name" placeholder="Enter your name" maxlength="30" required/>
   </label>
@@ -242,10 +249,10 @@
     <input  type="email" id="email" name="email" placeholder="Enter your email" required />
   </label>
   <label for="message">
-    <textarea type="text" id="message" class="user-message" placeholder="Write your message here" requiredmaxlength="500" cols="10"rows="5"></textarea>
+    <textarea id="message" class="user-message" placeholder="Write your message here" name="message" cols="10"rows="5" required></textarea>
   </label>
   <div class="formBtn">
-    <button type="button" class="contact-btn">Get In Touch</button>
+    <button type="submit" class="contact-btn">Get In Touch</button>
   </div>
 </div>
 </form>

@@ -28,6 +28,25 @@ body {
   color: #396df2;
 }
 
+.header-cross {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cross-popup {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
 .menue-popup {
   position: fixed;
   background-color: #6070ff;
@@ -557,6 +576,17 @@ textarea {
   gap: 10px;
 }
 
+#error-msg {
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: none;
+  font-size: 1.5rem;
+}
+
 .see-project a {
   text-decoration: none;
 }
@@ -581,9 +611,20 @@ textarea {
     height: 120vh;
     border-bottom-left-radius: 80px;
   }
+
   .pop-image {
     width: 80vw;
     height: 30vh;
+  }
+
+  .pop-technoligies {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .pophidden {
+    display: block;
   }
 
   .pop-project {
@@ -904,6 +945,7 @@ textarea {
   }
 
   .pop-image {
-    height: 30vh;
+    width: 88%;
+    height: 35vh;
   }
 }

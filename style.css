@@ -577,12 +577,8 @@ textarea {
 }
 
 #error-msg {
-  background-color: blanchedalmond;
-  color: black;
+  color: red;
   text-align: center;
-  padding: 8px;
-  border-radius: 8px;
-  border: 2px solid black;
   display: none;
   font-size: 1.5rem;
 }

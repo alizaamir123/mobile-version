@@ -6,6 +6,12 @@ body {
   overflow-x: hidden;
 }
 
+#hamburger-button {
+  color: #6070FF;
+  font-size: 25px;
+
+}
+
 .contactPara {
   margin: 20px auto;
   color: #fff;

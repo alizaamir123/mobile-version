@@ -9,7 +9,8 @@ const toggleMenue = () => {
     menue.classList.add('hidden');
     cross.classList.add('hidden');
   }
-}
+};
+
 hamburger.addEventListener('click', toggleMenue);
 cross.addEventListener('click', toggleMenue);
 document.querySelectorAll('.menue-items').forEach((n) => {

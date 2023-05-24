@@ -5,8 +5,6 @@ const submit = document.querySelectorAll(".see-project");
 const popshow = document.querySelector(".popup-container");
 const hidePopup = document.querySelector(".cross-popup");
 const form = document.querySelector(".form");
-errorMsg = document.querySelector(".flex");
-email = document.querySelector("#email");
 const toggleMenue = () => {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');
@@ -35,12 +33,3 @@ submit.forEach((button) => {
   button.addEventListener("click", togglePopup);
 });
 hidePopup.addEventListener("click", togglePopup);
-form.addEventListener("submit", (e) => {
-  if (email.value.toLowerCase() !== email.value) {
-    e.preventDefault();
-    errorMsg.style.display = "block";
-    errorMsg.innerHTML = "Email must be in Lowercase";
-  } else {
-    errorMsg.style.display = "none";
-  }
-});

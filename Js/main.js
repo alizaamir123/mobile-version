@@ -1,10 +1,9 @@
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
 const hamburger = document.querySelector('#hamburger-button');
-const submit = document.querySelectorAll(".see-project");
-const popshow = document.querySelector(".popup-container");
-const hidePopup = document.querySelector(".cross-popup");
-const form = document.querySelector(".form");
+const submit = document.querySelectorAll('.see-project');
+const popshow = document.querySelector('.popup-container');
+const hidePopup = document.querySelector('.cross-popup');
 const toggleMenue = () => {
   if (menue.classList.contains('hidden')) {
     menue.classList.remove('hidden');
@@ -15,10 +14,10 @@ const toggleMenue = () => {
   }
 };
 const togglePopup = () => {
-  if (popshow.classList.contains("hidden")) {
-    popshow.classList.remove("hidden");
+  if (popshow.classList.contains('hidden')) {
+    popshow.classList.remove('hidden');
   } else {
-    popshow.classList.add("hidden");
+    popshow.classList.add('hidden');
   }
 };
 hamburger.addEventListener('click', toggleMenue);
@@ -30,6 +29,6 @@ document.querySelectorAll('.menue-items').forEach((n) => {
   });
 });
 submit.forEach((button) => {
-  button.addEventListener("click", togglePopup);
+  button.addEventListener('click', togglePopup);
 });
-hidePopup.addEventListener("click", togglePopup);
+hidePopup.addEventListener('click', togglePopup);

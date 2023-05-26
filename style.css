@@ -558,7 +558,7 @@ textarea {
   padding: 16px;
   background-color: #fff;
   border-radius: 26px;
-  margin: 15% 5%;
+  margin: -6% 5%;
   display: flex;
   flex-direction: column;
 }
@@ -569,10 +569,15 @@ textarea {
   margin-top: 23px;
 }
 
+.cross {
+  margin-right: -33px;
+}
+
 .pop-button {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
+  padding: 0 3px;
 }
 
 .live {
@@ -590,6 +595,8 @@ textarea {
 
 .see-project a {
   text-decoration: none;
+  color: #396df2;
+  font-size: 14px;
 }
 
 @media (min-width: 553px) {
@@ -634,7 +641,7 @@ textarea {
   }
 
   .container-popup {
-    height: 80vh;
+    height: 100vh;
   }
 
   .para-links {
@@ -936,6 +943,7 @@ textarea {
 
   .img {
     padding: 4px 15px;
+    height: 349px;
   }
 }
 

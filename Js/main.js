@@ -1,7 +1,6 @@
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
 const hamburger = document.querySelector('#hamburger-button');
-const submit = document.querySelectorAll('.see-project');
 const popshow = document.querySelector('.popup-container');
 const hidePopup = document.querySelector('.cross-popup');
 const toggleMenue = () => {
@@ -13,13 +12,6 @@ const toggleMenue = () => {
     cross.classList.add('hidden');
   }
 };
-const togglePopup = () => {
-  if (popshow.classList.contains('hidden')) {
-    popshow.classList.remove('hidden');
-  } else {
-    popshow.classList.add('hidden');
-  }
-};
 hamburger.addEventListener('click', toggleMenue);
 cross.addEventListener('click', toggleMenue);
 document.querySelectorAll('.menue-items').forEach((n) => {
@@ -28,7 +20,10 @@ document.querySelectorAll('.menue-items').forEach((n) => {
     cross.classList.add('hidden');
   });
 });
-submit.forEach((button) => {
-  button.addEventListener('click', togglePopup);
-});
-hidePopup.addEventListener('click', togglePopup);
+
+
+
+
+
+
+

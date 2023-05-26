@@ -1,4 +1,5 @@
 import popupdata from './data.js';
+
 const submit = document.querySelectorAll('.see-project');
 const popopcontainer = document.querySelector('.popup-container');
 const popupwindow = (data) => {

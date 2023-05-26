@@ -1,8 +1,9 @@
-import popupdata from "./data.js";
+import popupdata from './data.js';
+
 const submit = document.querySelectorAll('.see-project');
-const popopcontainer=document.querySelector('.popup-container');
+const popopcontainer = document.querySelector('.popup-container');
 const popupwindow = (data) => {
-   popopcontainer.innerHTML= ` <div class="container-popup">
+  popopcontainer.innerHTML = ` <div class="container-popup">
    <div class="content">
      <div class="pop-header-tech">
        <div class="header-cross">
@@ -52,21 +53,18 @@ const popupwindow = (data) => {
  </div>
 </div>
 </div> 
-   `
-const crosspopup = document.querySelectorAll('.cross-popup')
-popopcontainer.classList.remove('hidden')
-crosspopup.forEach((cross)=> {
-    cross.addEventListener('click',()=>{
-        popopcontainer.classList.add('hidden')
-
-    })
-})
-}
-submit.forEach((button) => {
-    
-    button.addEventListener('click', (f) => {
-        const index= f.target.dataset.index;
-        popupwindow(popupdata[index])
+   `;
+  const crosspopup = document.querySelectorAll('.cross-popup');
+  popopcontainer.classList.remove('hidden');
+  crosspopup.forEach((cross) => {
+    cross.addEventListener('click', () => {
+      popopcontainer.classList.add('hidden');
     });
   });
-  
+};
+submit.forEach((button) => {
+  button.addEventListener('click', (f) => {
+    const { index } = f.target.dataset;
+    popupwindow(popupdata[index]);
+  });
+});

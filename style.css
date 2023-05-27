@@ -77,6 +77,10 @@ body {
   margin-top: 16px;
 }
 
+.pop-image {
+  width: 98%;
+}
+
 #cross-button {
   position: fixed;
   z-index: 100;
@@ -599,13 +603,9 @@ textarea {
   font-size: 14px;
 }
 
-@media (min-width: 553px) {
+@media (min-width: 550px) {
   .pop-image {
-    width: 70%;
-  }
-
-  .container-popup {
-    margin-top: 10%;
+    width: 75%;
   }
 }
 
@@ -620,10 +620,10 @@ textarea {
     border-bottom-left-radius: 80px;
   }
 
-  .pop-image {
+  /* .pop-image {
     width: 80vw;
     height: 30vh;
-  }
+  } */
 
   .pop-technoligies {
     display: grid;
@@ -713,7 +713,6 @@ textarea {
 
   .image {
     padding: 10px;
-    height: 328px;
   }
 
   .content-para {
@@ -939,19 +938,25 @@ textarea {
   }
 
   .img {
+    width: 90%;
     padding: 4px 15px;
-    height: 349px;
+  }
+}
+
+@media (min-width: 840px) {
+  .pop-image {
+    width: 60%;
   }
 }
 
 @media (min-width: 1000px) {
   .container-popup {
-    margin: 2% 20%;
-    height: 88vh;
+    margin: 8% 12%;
   }
+}
 
-  .pop-image {
-    width: 88%;
-    height: 35vh;
+@media (min-width: 1200px) {
+  .container-popup {
+    margin: 2% 20%;
   }
 }

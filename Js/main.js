@@ -34,7 +34,6 @@ const togglePopup = () => {
 submit.forEach((button) => {
   button.addEventListener('click', togglePopup);
 });
-hidePopup.addEventListener('click', togglePopup);
 form.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();

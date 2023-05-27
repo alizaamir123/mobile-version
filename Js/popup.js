@@ -20,7 +20,7 @@ const popupwindow = (data) => {
    </div>
    </div>
      <div class="image">
-       <img class="img pop-image" src="${data.popimage}" alt="">
+       <img class="pop-image" src="${data.popimage}" alt="">
    </div>
  <div class="para-links">
    <div class="popup-paragraph">

@@ -3,13 +3,11 @@ const formData = JSON.parse(localStorage.getItem('form-data')) || {
   email: '',
   message: '',
 };
-
 const inputList = [
   document.getElementById('name'),
   document.getElementById('email'),
   document.getElementById('message'),
 ];
-
 function updateFormData() {
   inputList.forEach((input) => {
     input.addEventListener('input', () => {
@@ -19,5 +17,4 @@ function updateFormData() {
     input.value = formData[input.id];
   });
 }
-
 updateFormData();

@@ -554,13 +554,13 @@ textarea {
   backdrop-filter: brightness(0.5);
 }
 
-.container-popup {
-  padding: 16px;
-  background-color: #fff;
-  border-radius: 26px;
-  margin: 10% 5%;
-  display: flex;
-  flex-direction: column;
+  .container-popup {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 26px;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .underline {
@@ -639,6 +639,7 @@ textarea {
     width: 138px;
     padding: 10px 5px;
   }
+
 
   .para-links {
     display: flex;

@@ -5,11 +5,12 @@ const popopcontainer = document.querySelector('.popup-container');
 const popupwindow = (data) => {
   popopcontainer.innerHTML = ` <div class="container-popup">
    <div class="content">
-     <div class="pop-header-tech">
+   <div class="no idea">
        <div class="header-cross">
      <h2 class="content-header margin-none">${data.projectname}</h2>
      <p class="cross-popup"> <img class="cross" src="./images/cross.png" alt=""></p>
    </div>
+   <div class="pop-header-tech">
      <ul class="specification margin-none margin-bottom">
          <li class="name">${data.frame[0]}</li>
          <li class="skills"><img src="${data.dot}" alt="">
@@ -18,10 +19,10 @@ const popupwindow = (data) => {
            <p>${data.frame[2]}</p></li>
      </ul>
    </div>
-     <div class="image">
-       <img class="img pop-image" src="${data.popimage}" alt="">
    </div>
- </div>
+     <div class="image">
+       <img class="pop-image" src="${data.popimage}" alt="">
+   </div>
  <div class="para-links">
    <div class="popup-paragraph">
    <p class="content-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi delectus tempora voluptate pariatur voluptas aut voluptatibus, alias eaque distinctio optio, at eligendi tenetur ab animi ut! r  </p>
@@ -41,18 +42,13 @@ const popupwindow = (data) => {
        <div class="live">
        <span class="text">See Live</span>
        <img src="${data.livelogo}" alt="logo" class="button-logo">
-     </div>
      </a></button>
-     <div class="live">
      <button class="see-project pop-project"><a href="#">
        <span class="text">See Source</span>
        <img src="${data.sourcelogo}" alt="logo" class="button-logo">
-     </div>
      </a></button>
+     </div>
    </div>
- </div>
-</div>
-</div> 
    `;
   const crosspopup = document.querySelectorAll('.cross-popup');
   popopcontainer.classList.remove('hidden');

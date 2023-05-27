@@ -1,6 +1,5 @@
 const menue = document.querySelector('.menue-popup');
 const cross = document.querySelector('#cross-button');
-const popshow = document.querySelector('.popup-container');
 const hamburger = document.querySelector('#hamburger-button');
 const form = document.querySelector('.form');
 const errorMsg = document.querySelector('.flex');
@@ -22,13 +21,6 @@ document.querySelectorAll('.menue-items').forEach((n) => {
     cross.classList.add('hidden');
   });
 });
-const togglePopup = () => {
-  if (popshow.classList.contains('hidden')) {
-    popshow.classList.remove('hidden');
-  } else {
-    popshow.classList.add('hidden');
-  }
-};
 form.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();

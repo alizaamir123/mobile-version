@@ -77,6 +77,10 @@ body {
   margin-top: 16px;
 }
 
+.pop-image {
+  width: 98%;
+}
+
 #cross-button {
   position: fixed;
   z-index: 100;
@@ -558,7 +562,7 @@ textarea {
   padding: 16px;
   background-color: #fff;
   border-radius: 26px;
-  margin: 15% 5%;
+  margin: 10% 5%;
   display: flex;
   flex-direction: column;
 }
@@ -569,10 +573,15 @@ textarea {
   margin-top: 23px;
 }
 
+.cross {
+  margin-right: -33px;
+}
+
 .pop-button {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
+  padding: 0 3px;
 }
 
 .live {
@@ -590,15 +599,13 @@ textarea {
 
 .see-project a {
   text-decoration: none;
+  color: #396df2;
+  font-size: 14px;
 }
 
-@media (min-width: 553px) {
+@media (min-width: 550px) {
   .pop-image {
-    width: 70%;
-  }
-
-  .container-popup {
-    margin-top: 10%;
+    width: 75%;
   }
 }
 
@@ -613,10 +620,10 @@ textarea {
     border-bottom-left-radius: 80px;
   }
 
-  .pop-image {
+  /* .pop-image {
     width: 80vw;
     height: 30vh;
-  }
+  } */
 
   .pop-technoligies {
     display: grid;
@@ -631,10 +638,6 @@ textarea {
   .pop-project {
     width: 138px;
     padding: 10px 5px;
-  }
-
-  .container-popup {
-    height: 80vh;
   }
 
   .para-links {
@@ -709,7 +712,6 @@ textarea {
 
   .image {
     padding: 10px;
-    height: 328px;
   }
 
   .content-para {
@@ -935,18 +937,25 @@ textarea {
   }
 
   .img {
+    width: 90%;
     padding: 4px 15px;
+  }
+}
+
+@media (min-width: 840px) {
+  .pop-image {
+    width: 60%;
   }
 }
 
 @media (min-width: 1000px) {
   .container-popup {
-    margin: 2% 20%;
-    height: 88vh;
+    margin: 8% 12%;
   }
+}
 
-  .pop-image {
-    width: 88%;
-    height: 35vh;
+@media (min-width: 1200px) {
+  .container-popup {
+    margin: 2% 20%;
   }
 }

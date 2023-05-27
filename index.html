@@ -13,12 +13,13 @@
   <title>Aliza Amir Portfolio</title>
 </head>
 <body>
-  
+  <div class="popup-container hidden">
+    
+  </div>
   <header>
   <nav>
     <h3 class="logo" id="logo"><a href="#"> Aliza Amir</a></h3>
     <div class="menu">
-      
       <span id="hamburger-button">&#9776</span>
       <span class="hidden" id="cross-button">X</span>
     </div>
@@ -75,7 +76,7 @@
                 <li class="Css technologies1">Css</li>
                 <li class="javascript technologies1">Javascript</li>
             </ul>
-            <button type="submit" class="see-project">See project</button>
+            <button data-index="0" class="see-project">See project</button>
         </div>
     </div>
     <div class="container">
@@ -98,7 +99,7 @@
                 <li class="Css technologies1">Css</li>
                 <li class="javascript technologies1">Javascript</li>
             </ul>
-            <button type="submit" class="see-project">See project</button>
+            <button data-index="1" class="see-project">See project</button>
         </div>
     </div>
     <div class="container">
@@ -120,7 +121,7 @@
                 <li class="Css technologies1">Css</li>
                 <li class="javascript technologies1">Javascript</li>
             </ul>
-            <button type="submit" class="see-project">See project</button>
+            <button data-index="2" class="see-project">See project</button>
         </div>
     </div>
     <div class="container">
@@ -143,7 +144,7 @@
                 <li class="Css technologies1">Css</li>
                 <li class="javascript technologies1">Javascript</li>
             </ul>
-            <button type="submit" class="see-project">See project</button>
+            <button data-index="3" class="see-project">See project</button>
         </div>
     </div>
   </section>
@@ -164,7 +165,7 @@
   <li class="twitter"><a href=""><img src="./images/github.png" alt=""></a></li>
   <li class="twitter"><a href=""><img src="./images/Vector.png" alt=""></a></li>
 </ul>
-<button type="submit" class="get-resume">get my resume</button>
+<button class="get-resume">get my resume</button>
   </div>
 <div >
 <ul class="language-section">
@@ -204,9 +205,10 @@
   <div class="formBtn">
     <button type="submit" class="contact-btn">Get In Touch</button>
   </div>
-</form>
 </div>
+</form>
 <script src="./Js/main.js"></script>
+<script src="./Js/popup.js" type="module"></script>
 
 </body>
 </html> 

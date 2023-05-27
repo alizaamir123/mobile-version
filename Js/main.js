@@ -21,16 +21,6 @@ document.querySelectorAll('.menue-items').forEach((n) => {
     cross.classList.add('hidden');
   });
 });
-const togglePopup = () => {
-  if (popshow.classList.contains('hidden')) {
-    popshow.classList.remove('hidden');
-  } else {
-    popshow.classList.add('hidden');
-  }
-};
-submit.forEach((button) => {
-  button.addEventListener('click', togglePopup);
-});
 form.addEventListener('submit', (e) => {
   if (email.value.toLowerCase() !== email.value) {
     e.preventDefault();

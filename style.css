@@ -942,7 +942,7 @@ textarea {
   }
 }
 
-@media (min-width:840px) {
+@media (min-width: 840px) {
   .pop-image {
     width: 60%;
   }

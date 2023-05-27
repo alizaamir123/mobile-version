@@ -1,25 +1,20 @@
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Aliza Amir Portfolio\] ](#-aliza-amir-portfolio-)
+  - [🛠️This is the Aliza Amir Portfolio, that allows you understand what are my skills as a developer.](#️this-is-the-aliza-amir-portfolio-that-allows-you-understand-what-are-my-skills-as-a-developer)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝Contributing ](#contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -80,6 +75,12 @@ Step 2: Locate the folder where you cloned your project to and open the `index.h
 
 - GitHub: [@Alizaamir123](https://github.com/Alizaamir123)
 - LinkedIn:[lizaAmir](https://www.linkedin.com/in/aliza-amir-545196215/)
+
+👤 **Mohammad Anwar Hussaini (Main Author)**
+
+- 👤 GitHub: [@Anwar Hussaini](https://github.com/M-Anwar-Hussaini)
+- 👤 Twitter: [@MAnwarHussaini](https://twitter.com/MAnwarHussaini)
+- 👤 LinkedIn: [Mohammad Anwar Hussaini](https://www.linkedin.com/in/mohammad-anwar-hussaini-876638267/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
